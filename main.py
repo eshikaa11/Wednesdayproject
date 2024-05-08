@@ -1,4 +1,8 @@
-def hello_world(name): 
+import backend
 
-       return "hello" + name
-   
+def main():
+    user_name = input("Enter name:")
+    greet = backend.hello_world(user_name)
+    print(greet)
+       
+main()   
